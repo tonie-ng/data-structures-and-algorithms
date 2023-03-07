@@ -20,6 +20,6 @@ function binary_search(list, item) {
   return Null;
 }
 
-my_list = [1, 3, 5, 7, 9];
+const my_list = [1, 3, 5, 7, 9];
 
 console.log(binary_search(my_list, 3));
