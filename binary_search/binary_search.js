@@ -3,9 +3,9 @@ function binary_search(list, item) {
   let high = list.length - 1;
 
   while (low <= high) {
-    mid = Math.floor((low + high) / 2);
+    const mid = Math.floor((low + high) / 2);
 
-    guess = list[mid];
+    const guess = list[mid];
 
     if (guess === item) {
       return mid;
