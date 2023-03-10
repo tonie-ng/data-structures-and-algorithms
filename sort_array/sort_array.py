@@ -38,10 +38,9 @@ def descending_sort(arr):
         print(largest)
         new_arr.append(arr.pop(largest))
     
-    return new_arr
+    return new_arr 
 
-to_be_sorted = [5,3,6,2,10, 3000, 7633]
+to_be_sorted = [1, 9, 8, 7, 0]
 
-# print(accending_sort(to_be_sorted ))
-# print(find_largest(to_be_sorted ))
+print(accending_sort(to_be_sorted ))
 print(descending_sort(to_be_sorted))
